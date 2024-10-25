@@ -23,6 +23,26 @@ while bilangan != 0 :
 
 print (f"bilangan terbesar= {max}")
 ```
+## Kode Programan 1
+```python
+a = int(input ("masukan angka: "))
+b = int(input ("masukan angka: "))
+c = int(input ("masukan angka: "))
+
+
+if a > b:
+    if a > c:
+        terbesar = a
+    else:
+        terbesar = c
+else:
+    if b > c:
+        terbesar = b
+    else:
+        terbesar = c 
+
+print (f"Bilangan Terbesar adalah {terbesar}")
+```
 
 ## Contoh Output
 ````markdown
@@ -32,6 +52,18 @@ masukan bilangan :8999
 masukan bilangan :1324
 masukan bilangan :0
 bilangan terbesar= 8999
+````
+
+## Contoh Output 1
+````mardown
+masukan bilangan :199908
+masukan bilangan :8998
+masukan bilangan :6765
+masukan bilangan :99998
+masukan bilangan :200
+masukan bilangan :1000
+masukan bilangan :0
+bilangan terbesar= 199908
 ````
 
 ## Cara Kerja Program
