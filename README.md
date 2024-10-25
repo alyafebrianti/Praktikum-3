@@ -1,3 +1,6 @@
+## Nama : Aldi Rismandayana
+## Kelas : TI.24.A1
+
 # Program Mencari Bilangan Terbesar
 Program sederhana untuk mencari nilai terbesar dari sekumpulan bilangan yang dimasukkan oleh pengguna menggunakan loop while True dan break statement.
 ## Deskripsi Program
@@ -7,23 +10,13 @@ Program ini dibuat menggunakan bahasa Python dengan fitur:
 - Menggunakan break statement untuk menghentikan program
 - Membandingkan setiap input dengan nilai maksimum yang tersimpan
 - Menampilkan bilangan terbesar yang ditemukan
- ## Flowchart Program
- ![Flowchart](img/FLowchart.png)
- ## Flowchart 1
+
+   ## Flowchart Program 1
  ![Flowchart](img/Flowchart1.png)
-
- ## Kode Programan 
-```python
-max = 0
-bilangan = int(input("masukan bilangan :"))
-while bilangan != 0 :
-    if bilangan > max :
-        max = bilangan
-    bilangan = int(input("masukan bilangan :"))
-
-print (f"bilangan terbesar= {max}")
-```
-## Kode Programan 1
+  ## Flowchart Program 2
+ ![Flowchart](img/FLowchart.png)
+ 
+ ## Kode Programan 1
 ```python
 a = int(input ("masukan angka: "))
 b = int(input ("masukan angka: "))
@@ -44,15 +37,17 @@ else:
 print (f"Bilangan Terbesar adalah {terbesar}")
 ```
 
-## Contoh Output
-````markdown
-masukan bilangan :200
-masukan bilangan :500
-masukan bilangan :8999
-masukan bilangan :1324
-masukan bilangan :0
-bilangan terbesar= 8999
-````
+ ## Kode Programan 2 
+```python
+max = 0
+bilangan = int(input("masukan bilangan :"))
+while bilangan != 0 :
+    if bilangan > max :
+        max = bilangan
+    bilangan = int(input("masukan bilangan :"))
+
+print (f"bilangan terbesar= {max}")
+```
 
 ## Contoh Output 1
 ````mardown
@@ -66,6 +61,19 @@ masukan bilangan :0
 bilangan terbesar= 199908
 ````
 
-## Cara Kerja Program
+## Contoh Output 2
+````markdown
+masukan bilangan :200
+masukan bilangan :500
+masukan bilangan :8999
+masukan bilangan :1324
+masukan bilangan :0
+bilangan terbesar= 8999
+````
+
+## Cara Kerja Program 1 
+Program ini dimulai dengan meminta pengguna untuk memasukkan tiga angka. Setelah angka-angka tersebut dimasukkan, program menggunakan fungsi max() untuk menentukan angka yang paling besar di antara ketiga angka tersebut. Fungsi max()  secara otomatis membandingkan semua angka dan mengembalikan yang terbesar. Setelah menemukan angka terbesar, program menampilkan hasilnya kepada pengguna dengan kalimat yang jelas. Dengan cara ini, kode menjadi lebih ringkas dan mudah dibaca, tanpa perlu membuat banyak kondisi untuk perbandingan.
+
+## Cara Kerja Program 2
 variable max di isi dengan nilai 0, setelah itu terdapat variable inputan dengan nama bilangan, jika kondisi bilangan tidak sama dengan 0 maka cari bilangan lebih dari max dan variable max di set dengan bilangan tersebut. Jika bilangan lebih kecil dari max maka bilangan input kembali sehingga akan menghasilkan bilangan terbesar dari operasi tersebut.
 
